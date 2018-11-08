@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Cryptocurrency Html Theme</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+	<style type="text/css" media="screen">
+		table, hr, .box { margin-bottom:25px; }
+		p { margin: 5px 0 5px 0;}
+		.box p { margin-bottom:10px; }
+		pre { background-color: #F7F8F6; padding: 20px 0px 0px 0px; }
+		img {border: 1px solid #BCBEC0;max-width: 100%;}
+	</style>
+</head>
+
+
+<body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<div class="container">
+		<div class="header-block">
+			 <div>
+				<p>HTML Template Documentation</p>
+				<h1 class="center">Cryptocurrency</h1>
+			</div>
+			<img src="assets/images/fruitfulcode.png">
+		 </div>
+		
+		<hr>
+		
+		<div class="menu-column">
+			<ol class="alpha">
+				<li><span class="menu-item" href="#about">About Cryptocurrency</span></li>
+				<li><span class="menu-item" href="#installation">Install Theme</span></li>
+				<li><span class="menu-item" href="#structure">Folder Structure</span></li>
+				<li><span class="menu-item submenu-container" href="#elements">Main Elements</span>
+					<ul class="submenu-list">
+						<li><span class="menu-item submenu-container" href="#carousel">Owl carousel</span></li>
+						<li><span class="menu-item" href="#multiple-carousels">News Carousel Single Blog</span></li>
+						<li><span class="menu-item" href="#countdown">Team Block</span></li>
+						<li><span class="menu-item" href="#search-cart">Price Plan</span></li>
+						<li><span class="menu-item" href="#product">Table Trade Currency</span></li>
+						<li><span class="menu-item" href="#data">Accordion</span></li>
+						<li><span class="menu-item" href="#post">Calculator</span></li>
+						<li><span class="menu-item" href="#contact-form">Contact Form</span></li>
+					</ul>
+				</li>
+				<li><span class="menu-item" href="#sources-and-credits">Sources and Credits</a></li>
+				<li><span class="menu-item" href="#contacts">Contacts</span></li>
+			</ol>
+		</div>
+		<div class="content">
+	<div class="content-block active">
+		<h3 id="about"><strong>About Cryptocurrency</strong></h3>
+		<br>
+		<p>Cryptocurrency – new unique, modern, with elegant curves and simple forms, fully responsive HTML theme, based on Bootstrap 4.0 created using HTML and LESS.</p>
+		<hr>
+	</div>
+	<div class="content-block">
+		<h3 id="installation"><strong>Install Theme</strong></h3>
+		<br>
+		<div style="padding: 30px; background: red;"><h3 style="color: #fff">Important!</h3></div>
+		<br>
+		<p>In order to get JS loading data you need to install <strong>localhost server</strong> or your computer must have
+        internet access. To install the localhost server You can use <a href="http://www.wampserver.com" target="blank">WAMP</a>.
+        Then you need to:</p>
+    <ul>
+        <li>Copy your files into <code>*wamp/www</code></li>
+        <li>Run <strong>WAMP</strong>. This will start your localhost server.</li>
+        <li>Open <strong>browser</strong> and in URL type <code>localhost/cryptocurrency</code> (or other path)</li>
+    </ul>
+		<hr>
+	</div>
+	<div class="content-block">
+		<h3 id="structure"><strong>Folder Structure</strong></h3>
+		<ul>
+			<li><strong>Cryptocurrency</strong>
+            <ul>
+                <li><strong>HTML Files</strong></li>
+                <li><strong>assets</strong>
+                    <ul>                      
+                        <li><strong>css</strong> - CSS style sheets</li>
+                        <li><strong>fonts</strong> - Font Awesome font</li>
+                        <li><strong>img</strong> - Images</li>
+                        <li><strong>js</strong> - JS script files</li>
+                    </ul>
+                </li>
+                <li><strong>documentation</strong> - This documentation</li>
+            </ul>
+        </li>
+    </ul>
+			</li>
+		</ul>
+		<hr>
+	</div>
+
+	<div class="content-block">
+		<h3 id="carousel"><strong>Owl carousel</strong></h3>
+		<img src="assets/images/product-carousel.png">
+		<h6>HTML head</h6>
+		<pre>
+	&lt;link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css"&gt;
+		</pre>
+		<h6>HTML:</h6>
+		<pre>
+	&lt;div id="sync1" class="owl-carousel owl-theme"&gt;
+		&lt;div class="item"&gt;
+			&lt;div class="inside"&gt;
+				&lt;h1&gt;The Future of Financing Technology is Here.&lt;/h1&gt;
+				&lt;p&gt;Lorem ipsum dolor sit amet&lt;/p&gt;
+				&lt;a href="trade-currency.html" class="blue-brd-btn"&gt;Get In Touch&lt;/a&gt;
+			&lt;/div&gt;
+			&lt;div class="main-slider-logo-block"&gt;
+				&lt;img src="assets/img/slider-logo-1.png" alt="images"&gt;
+				&lt;img src="assets/img/slider-logo-3.png" alt="images"&gt;
+				&lt;img src="assets/img/slider-logo-2.png" alt="images"&gt;
+				&lt;img src="assets/img/slider-logo-5.png" alt="images"&gt;
+				&lt;img src="assets/img/slider-logo-4.png" alt="images"&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class="item"&gt;...&lt;/div&gt;
+		&lt;div class="item"&gt;...&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div id="sync2" class="owl-carousel owl-theme"&gt;
+		&lt;div class="item"&gt;
+			&lt;span&gt;01&lt;/span&gt;
+		&lt;/div&gt;
+		&lt;div class="item"&gt;
+			&lt;span&gt;02&lt;/span&gt;
+		&lt;/div&gt;
+		&lt;div class="item"&gt;
+			&lt;span&gt;03&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+		</pre>
+		<h6>Before &lt;/body&gt; tag ends:</h6>
+		<pre>
+	&lt;script type="text/javascript" src="js/lib/owl.carousel.min.js"&gt;&lt;/script&gt;
+		</pre>
+		<h6>Js</h6>
+		<pre>
+	var sync1 = $("#sync1");
+	var sync2 = $("#sync2");
+	var slidesPerPage = 3; //globaly define number of elements per page
+	var syncedSecondary = true;
+
+	sync1.owlCarousel({
+		items : 1,
+		slideSpeed : 2000,
+		nav: true,
+		autoplay: false,
+		loop: true,
+		responsiveRefreshRate : 200,
+		navText: [''],
+	}).on('changed.owl.carousel', syncPosition);
+
+	sync2
+	.on('initialized.owl.carousel', function () {
+		sync2.find(".owl-item").eq(0).addClass("current");
+	})
+	.owlCarousel({
+		items : slidesPerPage,
+		smartSpeed: 200,
+		slideSpeed : 500,
+		slideBy: slidesPerPage,
+		responsiveRefreshRate : 100
+	}).on('changed.owl.carousel', syncPosition2);
+
+	function syncPosition(el) {
+		
+		//if you disable loop you have to comment this block
+		var count = el.item.count-1;
+		var current = Math.round(el.item.index - (el.item.count/2) - .5);
+
+		if(current < 0) {
+			current = count;
+		}
+		if(current > count) {
+			current = 0;
+		}
+		sync2
+			.find(".owl-item")
+			.removeClass("current")
+			.eq(current)
+			.addClass("current");
+		var onscreen = sync2.find('.owl-item.active').length - 1;
+		var start = sync2.find('.owl-item.active').first().index();
+		var end = sync2.find('.owl-item.active').last().index();
+		
+		if (current > end) {
+			sync2.data('owl.carousel').to(current, 100, true);
+		}
+		if (current < start) {
+			sync2.data('owl.carousel').to(current - onscreen, 100, true);
+		}
+	}
+	function syncPosition2(el) {
+		if(syncedSecondary) {
+			var number = el.item.index;
+			sync1.data('owl.carousel').to(number, 100, true);
+		}
+	}
+	sync2.on("click", ".owl-item", function(e){
+		e.preventDefault();
+		var number = $(this).index();
+		sync1.data('owl.carousel').to(number, 300, true);
+	});
+		</pre>
+		<p>Owl-carousel settings can be found <a href="https://owlcarousel2.github.io/OwlCarousel2/" target="blank">here</a>
+		</p>
+		<hr>
+	</div>
+	<div class="content-block">
+		<h3 id="multiple-carousels"><strong>News Carousel Single Blog</strong></h3>
+		<img src="assets/images/news-carusel.png" alt="">
+		<h6>HTML:</h6>
+		<pre style="font-size:12px;">
+	 &lt;div id="<strong>news-owl-carousel</strong>"&gt;
+		&lt;div class="item" ...&gt;&lt;/div&gt;
+		&lt;div class="item" ...&gt;&lt;/div&gt;
+		&lt;div class="item" ...&gt;&lt;/div&gt;
+	&lt;/div&gt;
+		</pre>
+		<h6>Before &lt;/body&gt; tag ends:</h6>
+		<pre>
+	&lt;script type="text/javascript" src="js/lib/owl.carousel.min.js"&gt;&lt;/script&gt;
+	&lt;script type="text/javascript" src="js/main.js"&gt;&lt;/script&gt;
+		</pre>
+		<h6>Initialize carousels in main.js file</h6>
+		<pre>
+	$("#news-owl-carousel").owlCarousel({
+		items: 4,
+		pullDrag: true,
+		margin: 10,
+		loop: true,
+		responsiveClass:true,
+		touchDrag: true,
+		smartSpeed : 1200,
+		autoplayHoverPause:true,
+		lazyLoad:true,
+		dots: true,
+		responsive : {
+			0:{
+				items: 1,
+			},
+			480:{
+				items: 2
+			},
+			768:{
+				items: 2
+			},
+			992:{
+				items: 4
+			}
+		}
+	});
+		</pre>
+		<hr>
+	</div>
+	<div class="content-block">
+		<h3 id="countdown"><strong>Team Block</strong></h3>
+		<img src="assets/images/timer-png.png">
+		<h6>HTML:</h6>
+		<pre>
+	&lt;div class="grid masonry"&gt;
+		&lt;div class="grid-item grid-item-width1"&gt;
+			&lt;a href="#" class="images130"&gt;
+				&lt;img src="assets/img/team2.png" alt="team"&gt;
+				&lt;h5&gt;Nil Goldman&lt;/h5&gt;
+				&lt;span&gt;Ceo &amp; Founder&lt;/span&gt;
+			&lt;/a&gt;
+		&lt;/div&gt;
+		&lt;div class="grid-item grid-item-width1 text-right"&gt;
+			&lt;a href="#" class="images100"&gt;
+				&lt;img src="assets/img/team3.png" alt="team"&gt;
+				&lt;h5&gt;Nil Goldman&lt;/h5&gt;
+				&lt;span&gt;Ceo &amp; Founder&lt;/span&gt;
+			&lt;/a&gt;
+		&lt;/div&gt;
+		&lt;div class="grid-item grid-item-width1 text-right"&gt;
+			&lt;a href="#" class="images130"&gt;
+				&lt;img src="assets/img/team4.png" alt="team"&gt;
+				&lt;h5&gt;Nil Goldman&lt;/h5&gt;
+				&lt;span&gt;Ceo &amp; Founder&lt;/span&gt;
+			&lt;/a&gt;
+		&lt;/div&gt;
+		&lt;div class="grid-item grid-item-width1 text-xl-center text-sm-center"&gt;
+			&lt;a href="#" class="images160"&gt;
+				&lt;img src="assets/img/team5.png" alt="team"&gt;
+				&lt;h5&gt;Nil Goldman&lt;/h5&gt;
+				&lt;span&gt;Ceo &amp; Founder&lt;/span&gt;
+			&lt;/a&gt;
+		&lt;/div&gt;
+		&lt;div class="grid-item grid-item-width2 text-center"&gt;
+			&lt;a href="#" class="images160"&gt;
+				&lt;img src="assets/img/team6.png" alt="team"&gt;
+				&lt;h5&gt;Nil Goldman&lt;/h5&gt;
+				&lt;span&gt;Ceo &amp; Founder&lt;/span&gt;
+			&lt;/a&gt;
+		&lt;/div&gt;
+		&lt;div class="grid-item grid-item-width2 text-left"&gt;
+			&lt;a href="#" class="images100"&gt;
+				&lt;img src="assets/img/team7.png" alt="team"&gt;
+				&lt;h5&gt;Nadin Spilka&lt;/h5&gt;
+				&lt;span&gt;Ceo &amp; Founder&lt;/span&gt;
+			&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+		</pre>
+		<h6>Before &lt;/body&gt; tag ends:</h6>
+		<pre style="font-size:12px;">
+			&lt;script src="js/main.js"&gt;&lt;/script&gt;
+			&lt;script src="js/lib/masonry.pkgd.min.js"&gt;&lt;/script&gt;
+		</pre>
+		<hr>
+	</div>
+	<div class="content-block">
+		<h3 id="search-cart"><strong>Price Plan</strong></h3>
+		<img src="assets/images/search.png">
+		<h6>HTML:</h6>
+<pre>
+&lt;div class="price-plan-block"&gt;
+  &lt;div class="container"&gt;
+  	&lt;div class="row justify-content-center animatedParent"&gt;
+  	  &lt;div class="col-xl-3 col-lg-6 col-md-6 custom animated bounceInLeft delay-250"&gt;
+  	  	&lt;div class="price-plan-item-inside"&gt;
+  	  	  &lt;div class="price-plan-icon-wrap plan-item-icon-1"&gt;
+  	  	  	&lt;img class="price-plan-item-icon" src="assets/img/our-price-icon-1.svg" alt="images"&gt;
+  	  	  &lt;/div&gt;
+  	  	  &lt;h4&gt;Basic&lt;/h4&gt;
+  	  	  &lt;p class="price-plan-text-1"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
+  	  	  &lt;h3&gt;$19 per month&lt;/h3&gt;
+  	  	  &lt;p class="price-plan-text-2"&gt;10 Accounts &lt;br&gt; 25GB SSD Storage &lt;br&gt;250GB Bandwidth &lt;/p&gt;
+  	  	  &lt;a href="sign-up.html" class="see-brd-btn"&gt;Sign Up&lt;/a&gt;
+  	  	&lt;/div&gt;
+  	  &lt;/div&gt;
+  	  &lt;div class="col-xl-3 col-lg-6 col-md-6 custom animated bounceInLeft delay-500"&gt;
+  	  	&lt;div class="price-plan-item-inside"&gt;
+  	  	  &lt;div class="price-plan-icon-wrap"&gt;
+  	  	  	&lt;img class="price-plan-item-icon" src="assets/img/our-price-icon-2.svg" alt="images"&gt;
+  	  	  &lt;/div&gt;
+  	  	  &lt;h4&gt;Plus&lt;/h4&gt;
+  	  	  &lt;p class="price-plan-text-1"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
+  	  	  &lt;h3&gt;$19 per month&lt;/h3&gt;
+  	  	  &lt;p class="price-plan-text-2"&gt;10 Accounts &lt;br&gt; 25GB SSD Storage &lt;br&gt;250GB Bandwidth &lt;/p&gt;
+  	  	  &lt;a href="sign-up.html" class="see-brd-btn"&gt;Sign Up&lt;/a&gt;
+  	  	&lt;/div&gt;
+  	  &lt;/div&gt;
+  	  &lt;div class="col-xl-3 col-lg-6 col-md-6 custom animated bounceInRight delay-250"&gt;
+  	  	&lt;div class="price-plan-item-inside"&gt;
+  	  	  &lt;div class="price-plan-icon-wrap"&gt;
+  	  	  	&lt;img class="price-plan-item-icon" src="assets/img/our-price-icon-3.svg" alt="images"&gt;
+  	  	  &lt;/div&gt;
+  	  	  &lt;h4&gt;Pro&lt;/h4&gt;
+  	  	  &lt;p class="price-plan-text-1"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
+  	  	  &lt;h3&gt;$19 per month&lt;/h3&gt;
+  	  	  &lt;p class="price-plan-text-2"&gt;10 Accounts &lt;br&gt; 25GB SSD Storage &lt;br&gt;250GB Bandwidth &lt;/p&gt;
+  	  	  &lt;a href="sign-up.html" class="see-brd-btn"&gt;Sign Up&lt;/a&gt;
+  	  	&lt;/div&gt;
+  	  &lt;/div&gt;
+  	  &lt;div class="col-xl-3 col-lg-6 col-md-6 custom animated bounceInRight delay-500"&gt;
+  	  	&lt;div class="price-plan-item-inside"&gt;
+  	  	  &lt;div class="price-plan-icon-wrap"&gt;
+  	  	  	&lt;img class="price-plan-item-icon" src="assets/img/our-price-icon-4.svg" alt="images"&gt;
+  	  	  &lt;/div&gt;
+  	  	  &lt;h4&gt;Business&lt;/h4&gt;
+  	  	  &lt;p class="price-plan-text-1"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
+  	  	  &lt;h3&gt;$19 per month&lt;/h3&gt;
+  	  	  &lt;p class="price-plan-text-2"&gt;10 Accounts &lt;br&gt; 25GB SSD Storage &lt;br&gt;250GB Bandwidth &lt;/p&gt;
+  	  	  &lt;a href="sign-up.html" class="see-brd-btn"&gt;Sign Up&lt;/a&gt;
+  	  	&lt;/div&gt;
+  	  &lt;/div&gt;
+  	&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+		<hr>
+	</div>
+	<div class="content-block">
+		<h3 id="product"><strong>Table Trade Currency</strong></h3>
+		<img src="assets/images/product.png">
+		<h6>HTML:</h6>
+<pre style="font-size:12px;">
+	&lt;table id="table"&gt;
+		&lt;thead&gt;
+	       &lt;tr&gt;
+	         &lt;td&gt;&lt;b class="name"&gt;Name&lt;/b&gt;&lt;/td&gt;
+	         &lt;td&gt;&lt;b class="name asc"&gt;Price&lt;/b&gt;&lt;/td&gt;
+	         &lt;td&gt;&lt;b class="name desc"&gt;24 hr% Change&lt;/b&gt;&lt;/td&gt;
+	         &lt;td&gt;&lt;b class="name asc"&gt;Market Cap&lt;/b&gt;&lt;/td&gt;
+	         &lt;td&gt;&lt;b class="name desc"&gt;24hr Volume&lt;/b&gt;&lt;/td&gt;
+	         &lt;td&gt;&lt;b class="name"&gt;Price Graph&lt;/b&gt;&lt;/td&gt;
+	       &lt;/tr&gt;
+		&lt;/thead&gt;
+		&lt;tbody&gt;
+	      &lt;tr&gt;
+	      	 &lt;td&gt;&lt;img src="assets/img/bitcoin.svg" alt="bitcoin"&gt;&lt;b&gt;Bitcoin&lt;/b&gt;&lt;/td&gt;
+	      	 &lt;td&gt;&lt;b&gt;$10 597.2&lt;/b&gt;&lt;/td&gt;
+	      	 &lt;td&gt;&lt;span&gt;-2.45%&lt;/span&gt;&lt;/td&gt;
+	      	 &lt;td&gt;$73.99 B&lt;/td&gt;
+	      	 &lt;td&gt;$4 588&lt;/td&gt;
+	      	 &lt;td&gt;&lt;img src="assets/img/graphic1.svg" alt="graphic1"&gt;&lt;/td&gt;
+	      &lt;/tr&gt;
+	      &lt;tr&gt;
+	      	 &lt;td&gt;&lt;img src="assets/img/ethereum.svg" alt="bitcoin"&gt;&lt;b&gt;Ethereum&lt;/b&gt;&lt;/td&gt;
+	      	 &lt;td&gt;&lt;b&gt;$288.92&lt;/b&gt;&lt;/td&gt;
+	      	 &lt;td&gt;&lt;span&gt;-0.28%&lt;/span&gt;&lt;/td&gt;
+	      	 &lt;td&gt;$27.43 B&lt;/td&gt;
+	      	 &lt;td&gt;$4 588&lt;/td&gt;
+	      	 &lt;td&gt;&lt;img src="assets/img/graphic1.svg" alt="graphic1"&gt;&lt;/td&gt;
+	      &lt;/tr&gt;
+	      &lt;tr&gt;
+	      	 &lt;td&gt;&lt;img src="assets/img/bitcoin.svg" alt="bitcoin"&gt;&lt;b&gt;Bitcoin Cash&lt;/b&gt;&lt;/td&gt;
+	      	 &lt;td&gt;&lt;b&gt;$1 524&lt;/b&gt;&lt;/td&gt;
+	      	 &lt;td&gt;&lt;span&gt;-2.45%&lt;/span&gt;&lt;/td&gt;
+	      	 &lt;td&gt;$73.99 B&lt;/td&gt;
+	      	 &lt;td&gt;$4 588&lt;/td&gt;
+	      	 &lt;td&gt;&lt;img src="assets/img/graphic1.svg" alt="graphic1"&gt;&lt;/td&gt;
+	      &lt;/tr&gt;
+	      &lt;tr&gt;
+	      	 &lt;td&gt;&lt;img src="assets/img/ripple.svg" alt="bitcoin"&gt;&lt;b&gt;Ripple&lt;/b&gt;&lt;/td&gt;
+	      	 &lt;td&gt;&lt;b&gt;0.24540&lt;/b&gt;&lt;/td&gt;
+	      	 &lt;td&gt;&lt;span&gt;-0.28%&lt;/span&gt;&lt;/td&gt;
+	      	 &lt;td&gt;$27.43 B&lt;/td&gt;
+	      	 &lt;td&gt;$4 588&lt;/td&gt;
+	      	 &lt;td&gt;&lt;img src="assets/img/graphic1.svg" alt="graphic1"&gt;&lt;/td&gt;
+	      &lt;/tr&gt;
+	      &lt;tr&gt;
+	      	 &lt;td&gt;&lt;img src="assets/img/iota.svg" alt="bitcoin"&gt;&lt;b&gt;IOTA&lt;/b&gt;&lt;/td&gt;
+	      	 &lt;td&gt;&lt;b&gt;$2.63000&lt;/b&gt;&lt;/td&gt;
+	      	 &lt;td&gt;&lt;span&gt;-2.45%&lt;/span&gt;&lt;/td&gt;
+	      	 &lt;td&gt;$73.99 B&lt;/td&gt;
+	      	 &lt;td&gt;$4 588&lt;/td&gt;
+	      	 &lt;td&gt;&lt;img src="assets/img/graphic1.svg" alt="graphic1"&gt;&lt;/td&gt;
+	      &lt;/tr&gt;
+	      &lt;tr&gt;
+	      	 &lt;td&gt;&lt;img src="assets/img/bitcoin.svg" alt="bitcoin"&gt;&lt;b&gt;Bitcoin Gold&lt;/b&gt;&lt;/td&gt;
+	      	 &lt;td&gt;&lt;b&gt;$10 597.2&lt;/b&gt;&lt;/td&gt;
+	      	 &lt;td&gt;&lt;span&gt;-2.45%&lt;/span&gt;&lt;/td&gt;
+	      	 &lt;td&gt;$73.99 B&lt;/td&gt;
+	      	 &lt;td&gt;$4 588&lt;/td&gt;
+	      	 &lt;td&gt;&lt;img src="assets/img/graphic1.svg" alt="graphic1"&gt;&lt;/td&gt;
+	      &lt;/tr&gt;
+	      &lt;tr&gt;
+	      	 &lt;td&gt;&lt;img src="assets/img/ethereum.svg" alt="bitcoin"&gt;&lt;b&gt;Ethereum Classic&lt;/b&gt;&lt;/td&gt;
+	      	 &lt;td&gt;&lt;b&gt;$288.92&lt;/b&gt;&lt;/td&gt;
+	      	 &lt;td&gt;&lt;span&gt;-0.28%&lt;/span&gt;&lt;/td&gt;
+	      	 &lt;td&gt;$27.43 B&lt;/td&gt;
+	      	 &lt;td&gt;$4 588&lt;/td&gt;
+	      	 &lt;td&gt;&lt;img src="assets/img/graphic1.svg" alt="graphic1"&gt;&lt;/td&gt;
+	      &lt;/tr&gt;
+	      &lt;tr&gt;
+	      	 &lt;td&gt;&lt;img src="assets/img/omisego.svg" alt="bitcoin"&gt;&lt;b&gt;OmiseGO&lt;/b&gt;&lt;/td&gt;
+	      	 &lt;td&gt;&lt;b&gt;$10 597.2&lt;/b&gt;&lt;/td&gt;
+	      	 &lt;td&gt;&lt;span&gt;-2.45%&lt;/span&gt;&lt;/td&gt;
+	      	 &lt;td&gt;$73.99 B&lt;/td&gt;
+	      	 &lt;td&gt;$4 588&lt;/td&gt;
+	      	 &lt;td&gt;&lt;img src="assets/img/graphic1.svg" alt="graphic1"&gt;&lt;/td&gt;
+	      &lt;/tr&gt;
+	      &lt;tr&gt;
+	      	 &lt;td&gt;&lt;img src="assets/img/ethereum.svg" alt="bitcoin"&gt;&lt;b&gt;Ethereum&lt;/b&gt;&lt;/td&gt;
+	      	 &lt;td&gt;&lt;b&gt;$288.92&lt;/b&gt;&lt;/td&gt;
+	      	 &lt;td&gt;&lt;span&gt;-0.28%&lt;/span&gt;&lt;/td&gt;
+	      	 &lt;td&gt;$27.43 B&lt;/td&gt;
+	      	 &lt;td&gt;$4 588&lt;/td&gt;
+	      	 &lt;td&gt;&lt;img src="assets/img/graphic1.svg" alt="graphic1"&gt;&lt;/td&gt;
+	      &lt;/tr&gt;
+	      &lt;tr&gt;
+	      	 &lt;td&gt;&lt;img src="assets/img/bitcoin.svg" alt="bitcoin"&gt;&lt;b&gt;Bitcoin&lt;/b&gt;&lt;/td&gt;
+	      	 &lt;td&gt;&lt;b&gt;$10 597.2&lt;/b&gt;&lt;/td&gt;
+	      	 &lt;td&gt;&lt;span&gt;-2.45%&lt;/span&gt;&lt;/td&gt;
+	      	 &lt;td&gt;$73.99 B&lt;/td&gt;
+	      	 &lt;td&gt;$4 588&lt;/td&gt;
+	      	 &lt;td&gt;&lt;img src="assets/img/graphic1.svg" alt="graphic1"&gt;&lt;/td&gt;
+	      &lt;/tr&gt;
+	      &lt;tr&gt;
+	      	 &lt;td&gt;&lt;img src="assets/img/ethereum.svg" alt="bitcoin"&gt;&lt;b&gt;Ethereum&lt;/b&gt;&lt;/td&gt;
+	      	 &lt;td&gt;&lt;b&gt;$288.92&lt;/b&gt;&lt;/td&gt;
+	      	 &lt;td&gt;&lt;span&gt;-0.28%&lt;/span&gt;&lt;/td&gt;
+	      	 &lt;td&gt;$27.43 B&lt;/td&gt;
+	      	 &lt;td&gt;$4 588&lt;/td&gt;
+	      	 &lt;td&gt;&lt;img src="assets/img/graphic1.svg" alt="graphic1"&gt;&lt;/td&gt;
+	      &lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+</pre>
+		<hr>
+	</div>
+	<div class="content-block">
+		<h3 id="data"><strong>Accordion</strong></h3>
+		<img src="assets/images/accordion.png" alt="accordion">
+		<h6>HTML:</h6>
+	<pre style="font-size:12px;">
+  &lt;div id="accordion"&gt;
+    &lt;div class="accordion-content animated bounceInUp delay-250"&gt;
+      &lt;div class="accordion-header" id="headingOne"&gt;
+        &lt;button class="btn btn-link" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" 
+        aria-controls="collapse1"&gt;How to Identify a Bitcoin or Ethereum Cloud Mining Scam?&lt;svg version="1.1"
+        id="Layer_14" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+        y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve"&gt;&lt;style 
+        type="text/css"&gt;.st0{fill:transparent;}&lt;/style&gt;&lt;g&gt;&lt;circle class="st0" cx="49" cy="49" r="39"/&gt;&lt;path 
+        d="M49,11c21,0,38,17,38,38S70,87,49,87S11,70,11,49S28,11,49,11 M49,9C26.9,9,9,26.9,9,49s17.9,40,40,
+        40s40-17.9,40-40S71.1,9,49,9L49,9z"/&gt;&lt;/g&gt;&lt;g&gt;&lt;rect x="48.5" y="23.5" class="st0" width="1"
+        height="47"/&gt;&lt;path d="M49,24v46V24 M50,23h-2v48h2V23L50,23z"/&gt;&lt;/g&gt;&lt;g&gt;&lt;rect x="41.5" y="53.7" 
+        transform="matrix(0.7071 -0.7071 0.7071 0.7071 -32.9533 48.4436)" class="st0" width="1" height="20.7"/&gt;
+        &lt;polygon points="35.1,55.6 33.6,57.1 48.9,72.4 50.4,70.9 35.1,55.6 "/&gt;&lt;/g&gt;&lt;g&gt;&lt;rect x="45.7" y="63.5" 
+        transform="matrix(0.7071 -0.7071 0.7071 0.7071 -28.8528 58.3431)" class="st0" width="20.7" 
+        height="1"/&gt;&lt;polygon points="62.9,55.6 47.6,70.9 49.1,72.4 64.4,57.1 62.9,55.6 "/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/button&gt;
+      &lt;/div&gt;
+      &lt;div id="collapse1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion"&gt;
+        &lt;div class="accordion-body"&gt;
+          &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+          dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="accordion-content animated bounceInUp delay-500"&gt;
+      &lt;div class="accordion-header" id="heading2"&gt;
+        &lt;button class="btn btn-link" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" 
+        aria-controls="collapse1"&gt;How to Identify a Bitcoin or Ethereum Cloud Mining Scam?&lt;svg version="1.1"
+        id="Layer_14" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+        y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve"&gt;&lt;style 
+        type="text/css"&gt;.st0{fill:transparent;}&lt;/style&gt;&lt;g&gt;&lt;circle class="st0" cx="49" cy="49" r="39"/&gt;&lt;path 
+        d="M49,11c21,0,38,17,38,38S70,87,49,87S11,70,11,49S28,11,49,11 M49,9C26.9,9,9,26.9,9,49s17.9,40,40,
+        40s40-17.9,40-40S71.1,9,49,9L49,9z"/&gt;&lt;/g&gt;&lt;g&gt;&lt;rect x="48.5" y="23.5" class="st0" width="1"
+        height="47"/&gt;&lt;path d="M49,24v46V24 M50,23h-2v48h2V23L50,23z"/&gt;&lt;/g&gt;&lt;g&gt;&lt;rect x="41.5" y="53.7" 
+        transform="matrix(0.7071 -0.7071 0.7071 0.7071 -32.9533 48.4436)" class="st0" width="1" height="20.7"/&gt;
+        &lt;polygon points="35.1,55.6 33.6,57.1 48.9,72.4 50.4,70.9 35.1,55.6 "/&gt;&lt;/g&gt;&lt;g&gt;&lt;rect x="45.7" y="63.5" 
+        transform="matrix(0.7071 -0.7071 0.7071 0.7071 -28.8528 58.3431)" class="st0" width="20.7" 
+        height="1"/&gt;&lt;polygon points="62.9,55.6 47.6,70.9 49.1,72.4 64.4,57.1 62.9,55.6 "/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/button&gt;
+      &lt;/div&gt;
+      &lt;div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordion"&gt;
+        &lt;div class="accordion-body"&gt;
+          &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+          dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+	</pre>
+		<hr>
+	</div>
+	<div class="content-block">
+		<h3 id="post"><strong>calculator</strong></h3>
+		<br>
+	<p>
+		<img src="assets/images/post.png">
+	</p>
+	<pre>
+&lt;div class="calculator"&gt;
+  &lt;div class="container"&gt;
+    &lt;div class="row"&gt;
+      &lt;div class="col-xl-4 col-lg-4 col-12 pr-lg-0"&gt;
+       &lt;div class="calculator-info"&gt;
+       	&lt;img src="assets/img/icon-b.svg" alt="icon-b"&gt;
+       	&lt;h5&gt;&lt;span&gt;Calculated for&lt;/span&gt;1 BTC = $ 10597.2&lt;/h5&gt;
+       	&lt;form&gt;
+          &lt;div class="form-group first"&gt;
+            &lt;label&gt;Hashing Power&lt;/label&gt;
+            &lt;input type="number" class="power" placeholder="4730"&gt;
+            &lt;div class="select"&gt;
+              &lt;select name="tn"&gt;
+                &lt;option value="ths"&gt;TH/s&lt;/option&gt;
+                &lt;option value="ths"&gt;H/s&lt;/option&gt;
+                &lt;option value="ths"&gt;MH/s&lt;/option&gt;
+                &lt;option value="ths"&gt;GH/s&lt;/option&gt;
+              &lt;/select&gt;
+              &lt;svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+               width="8" height="15" 
+              viewBox="0 0 8 15"&gt;&lt;defs&gt;&lt;path id="b3tqa" d="M226.14 444.68l3.43-4.86a.
+              17.17 0 0 0 .02-.18.17.17 
+              0 0 0-.16-.09h-6.86a.17.17 0 0 0-.15.1.17.17 0 0 0 0 .17l3.44 4.86c.03.05.08.08.14.
+              08.06 0 .11-.03.14-.08z"/&gt;&lt;path id="b3tqb" 
+              d="M225.86 430.82l-3.43 4.86a.17.17 0 0 0-.02.18c.03.05.1.09.16.09h6.86c.07 0 .12-.
+              04.15-.1a.17.17 0 0 0 0-.17l-3.44-4.86a.17.17 0 
+              0 0-.28 0z"/&gt;&lt;/defs&gt;&lt;g&gt;&lt;g transform="translate(-222 -430)"&gt;&lt;g&gt;&lt;use 
+              fill="#20add0" 
+              xlink:href="#b3tqa"/&gt;&lt;/g&gt;&lt;g&gt;&lt;use fill="#20add0" 
+              xlink:href="#b3tqb"/&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class="form-group"&gt;
+            &lt;label&gt;Power consumption (w)&lt;/label&gt;
+            &lt;input type="number" class="consumption" placeholder="1293"&gt;
+          &lt;/div&gt;
+          &lt;div class="form-group"&gt;
+            &lt;label&gt;Cost per KW/h ($)&lt;/label&gt;
+            &lt;input type="number" class="cost-per" placeholder="0.12"&gt;
+          &lt;/div&gt;
+       	&lt;/form&gt;
+       &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="col-xl-8 col-lg-8 col-12 pl-lg-0"&gt;
+        &lt;!--===================== Nav Pills ========================--&gt;
+        &lt;ul class="nav nav-pills" id="pills-tab" role="tablist"&gt;
+          &lt;li class="nav-item"&gt;
+           &lt;a class="nav-link active" id="pills-contact-tab-btc" data-toggle="pill"
+            href="#pills-contact-btc" role="tab"
+            aria-controls="pills-contact-btc" aria-selected="true"&gt;BTC&lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li class="nav-item"&gt;
+            &lt;a class="nav-link" id="pills-contact-tab-eth" data-toggle="pill"
+             href="#pills-contact-eth" role="tab"
+             aria-controls="pills-contact-eth" aria-selected="false"&gt;ETH&lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li class="nav-item"&gt;
+            &lt;a class="nav-link" id="pills-contact-tab-etc" data-toggle="pill"
+             href="#pills-contact-etc" role="tab"
+             aria-controls="pills-contact-etc" aria-selected="false"&gt;ETC&lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li class="nav-item"&gt;
+            &lt;a class="nav-link" id="pills-contact-tab-xmr" data-toggle="pill"
+             href="#pills-contact-xmr" role="tab"
+             aria-controls="pills-contact-xmr" aria-selected="false"&gt;XMR&lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li class="nav-item"&gt;
+            &lt;a class="nav-link" id="pills-contact-tab-zek" data-toggle="pill"
+             href="#pills-contact-zek" role="tab"
+             aria-controls="pills-contact-tab-zek" aria-selected="false"&gt;ZEK&lt;/a&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;!--===================== End of Nav Pills ========================--&gt;
+        &lt;!--===================== Tab Content ========================--&gt;
+        &lt;div class="tab-content" id="pills-tabContent"&gt;
+          &lt;div class="tab-pane fade show active" id="pills-contact-btc" role="tabpanel" 
+          aria-labelledby="pills-contact-tab-btc"&gt;
+            &lt;ul class="info-button list-unstyled"&gt;
+              &lt;li&gt;Profit ratio per day &lt;output class="day"&gt;251,052%&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Profit per month &lt;output class="month"&gt;$ 280.46 K&lt;/output&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;ul class="list-unstyled first"&gt;
+              &lt;li&gt;Profit per day&lt;output class="day2"&gt;$9,348.79&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Profit per week&lt;output class="week2"&gt;$65.44 K&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Profit per month&lt;output class="month2"&gt;$280.46 K&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Profit per year&lt;output class="year2"&gt;$3.41 M&lt;/output&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;ul class="list-unstyled"&gt;
+              &lt;li&gt;Mined/day&lt;output class="day3"&gt;Ƀ 0.8825&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Mined/week&lt;output class="week3"&gt;Ƀ 6.18&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Mined/month&lt;output class="month3"&gt;Ƀ 26.48&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Mined/year&lt;output class="year3"&gt;Ƀ 322.13&lt;/output&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;ul class="list-unstyled"&gt;
+              &lt;li&gt;Power cost/Day&lt;output class="day4"&gt;$3.72&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Power cost/Week&lt;output class="week4"&gt;$26.07&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Power cost/Month&lt;output class="month4"&gt;$111.72&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Power cost/Year&lt;output class="year4"&gt;$1,359.20&lt;/output&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+          &lt;div class="tab-pane fade" id="pills-contact-eth" role="tabpanel" 
+          aria-labelledby="pills-contact-tab-eth"&gt;
+            &lt;ul class="info-button list-unstyled"&gt;
+              &lt;li&gt;Profit ratio per day &lt;output class="day"&gt;251,052%&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Profit per month &lt;output class="month"&gt;$ 280.46 K&lt;/output&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;ul class="list-unstyled first"&gt;
+              &lt;li&gt;Profit per day&lt;output class="day2"&gt;$9,348.79&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Profit per week&lt;output class="week2"&gt;$65.44 K&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Profit per month&lt;output class="month2"&gt;$280.46 K&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Profit per year&lt;output class="year2"&gt;$3.41 M&lt;/output&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;ul class="list-unstyled"&gt;
+              &lt;li&gt;Mined/day&lt;output class="day3"&gt;Ƀ 0.8825&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Mined/week&lt;output class="week3"&gt;Ƀ 6.18&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Mined/month&lt;output class="month3"&gt;Ƀ 26.48&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Mined/year&lt;output class="year3"&gt;Ƀ 322.13&lt;/output&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;ul class="list-unstyled"&gt;
+              &lt;li&gt;Power cost/Day&lt;output class="day4"&gt;$3.72&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Power cost/Week&lt;output class="week4"&gt;$26.07&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Power cost/Month&lt;output class="month4"&gt;$111.72&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Power cost/Year&lt;output class="year4"&gt;$1,359.20&lt;/output&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+          &lt;div class="tab-pane fade" id="pills-contact-etc" role="tabpanel" 
+          aria-labelledby="pills-contact-tab-etc"&gt;
+            &lt;ul class="info-button list-unstyled"&gt;
+              &lt;li&gt;Profit ratio per day &lt;output class="day"&gt;251,052%&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Profit per month &lt;output class="month"&gt;$ 280.46 K&lt;/output&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;ul class="list-unstyled first"&gt;
+              &lt;li&gt;Profit per day&lt;output class="day2"&gt;$9,348.79&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Profit per week&lt;output class="week2"&gt;$65.44 K&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Profit per month&lt;output class="month2"&gt;$280.46 K&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Profit per year&lt;output class="year2"&gt;$3.41 M&lt;/output&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;ul class="list-unstyled"&gt;
+              &lt;li&gt;Mined/day&lt;output class="day3"&gt;Ƀ 0.8825&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Mined/week&lt;output class="week3"&gt;Ƀ 6.18&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Mined/month&lt;output class="month3"&gt;Ƀ 26.48&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Mined/year&lt;output class="year3"&gt;Ƀ 322.13&lt;/output&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;ul class="list-unstyled"&gt;
+              &lt;li&gt;Power cost/Day&lt;output class="day4"&gt;$3.72&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Power cost/Week&lt;output class="week4"&gt;$26.07&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Power cost/Month&lt;output class="month4"&gt;$111.72&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Power cost/Year&lt;output class="year4"&gt;$1,359.20&lt;/output&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+          &lt;div class="tab-pane fade" id="pills-contact-xmr" role="tabpanel" 
+          aria-labelledby="pills-contact-tab-xmr"&gt;
+            &lt;ul class="info-button list-unstyled"&gt;
+              &lt;li&gt;Profit ratio per day &lt;output class="day"&gt;251,052%&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Profit per month &lt;output class="month"&gt;$ 280.46 K&lt;/output&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;ul class="list-unstyled first"&gt;
+              &lt;li&gt;Profit per day&lt;output class="day2"&gt;$9,348.79&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Profit per week&lt;output class="week2"&gt;$65.44 K&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Profit per month&lt;output class="month2"&gt;$280.46 K&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Profit per year&lt;output class="year2"&gt;$3.41 M&lt;/output&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;ul class="list-unstyled"&gt;
+              &lt;li&gt;Mined/day&lt;output class="day3"&gt;Ƀ 0.8825&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Mined/week&lt;output class="week3"&gt;Ƀ 6.18&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Mined/month&lt;output class="month3"&gt;Ƀ 26.48&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Mined/year&lt;output class="year3"&gt;Ƀ 322.13&lt;/output&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;ul class="list-unstyled"&gt;
+              &lt;li&gt;Power cost/Day&lt;output class="day4"&gt;$3.72&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Power cost/Week&lt;output class="week4"&gt;$26.07&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Power cost/Month&lt;output class="month4"&gt;$111.72&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Power cost/Year&lt;output class="year4"&gt;$1,359.20&lt;/output&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+          &lt;div class="tab-pane fade" id="pills-contact-zekt" role="tabpanel"
+           aria-labelledby="pills-contact-tab-zek"&gt;
+            &lt;ul class="info-button list-unstyled"&gt;
+              &lt;li&gt;Profit ratio per day &lt;output class="day"&gt;251,052%&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Profit per month &lt;output class="month"&gt;$ 280.46 K&lt;/output&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;ul class="list-unstyled first"&gt;
+              &lt;li&gt;Profit per day&lt;output class="day2"&gt;$9,348.79&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Profit per week&lt;output class="week2"&gt;$65.44 K&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Profit per month&lt;output class="month2"&gt;$280.46 K&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Profit per year&lt;output class="year2"&gt;$3.41 M&lt;/output&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;ul class="list-unstyled"&gt;
+              &lt;li&gt;Mined/day&lt;output class="day3"&gt;Ƀ 0.8825&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Mined/week&lt;output class="week3"&gt;Ƀ 6.18&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Mined/month&lt;output class="month3"&gt;Ƀ 26.48&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Mined/year&lt;output class="year3"&gt;Ƀ 322.13&lt;/output&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;ul class="list-unstyled"&gt;
+              &lt;li&gt;Power cost/Day&lt;output class="day4"&gt;$3.72&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Power cost/Week&lt;output class="week4"&gt;$26.07&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Power cost/Month&lt;output class="month4"&gt;$111.72&lt;/output&gt;&lt;/li&gt;
+              &lt;li&gt;Power cost/Year&lt;output class="year4"&gt;$1,359.20&lt;/output&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!--===================== End of Tab Content ========================--&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+	</pre>
+	</pre>
+	<h6>Js</h6>
+	<pre>
+function updateResults() {
+	var foo = parseFloat($('.power').val());
+		foo = Math.round(foo + 13.99);
+	$('.cost').val(foo);
+
+	// Change Month Value
+	var foo2 = parseFloat($('.cost-per').val());
+		foo2 = Math.round(foo2 * 2);
+	var $output_month = $('output.month');
+		$output_month.val("$" + foo2 + "K");
+
+	// Change Day Value
+		foo = Math.round(foo * 2);
+	var $output_day = $('output.day');
+		$output_day.val(foo + "%");
+
+	// Change Day2 Value
+	var result_day = foo * 2;
+	var $output_day = $('output.day2');
+		$output_day.val("$" + result_day);
+
+	// Change Week Value
+	var result = foo / 2;
+	var $output_week = $('output.week2');
+		$output_week.val("$" + result + "K");
+
+	// Change Month2 Value
+	var result_month = foo + 2;
+	var $output_month2 = $('output.month2');
+		$output_month2.val("$" + result_month + "K");
+
+	// Change Year2 Value
+	var result_year = foo + 2.5;
+	var $output_year = $('output.year2');
+		$output_year.val("$" + result_year + "M");
+
+	// Change Day2 Value
+	var result_day2 = result_day * 2;
+	var $output_day2 = $('output.day3');
+		$output_day2.val("Ƀ" + result_day2);
+
+	// Change Week2 Value
+	var result_month2 = result + 2;
+	var $output_week2 = $('output.week3');
+		$output_week2.val("Ƀ" + result_month2);
+
+	// Change Month2 Value
+	var result_month3 = result_month + 2;
+	var $output_month3 = $('output.month3');
+		$output_month3.val("Ƀ" + result_month3);
+
+	// Change Year3 Value
+	var result_year2 = result_year + 2;
+	var $output_year2 = $('output.year3');
+		$output_year2.val("Ƀ" + result_year2);
+
+	// Change Day4 Value
+	var result_day3 = result_day2 * 2;
+	var $output_day4 = $('output.day4');
+		$output_day4.val("$" + result_day3);
+
+	// Change Week4 Value
+	var result_week4 = result_month2 * 2;
+	var $output_week4 = $('output.week4');
+		$output_week4.val("$" + result_week4);
+
+	// Change Month4 Value
+	var result_month4 = result_month3 * 2;
+	var $output_month4 = $('output.month4');
+		$output_month4.val("$" + result_month4);
+
+	// Change Week4 Value
+	var result_year4 = result_year2 * 2;
+	var $output_year4 = $('output.year4');
+		$output_year4.val("$" + result_year4);
+}
+
+// Change Consumption and Cost-per Value
+$('.power').keyup(function () {
+	var foo = parseFloat($(this).val());
+		foo = Math.round(foo * 50);
+		$('.consumption').val(foo);
+
+	var result = foo * 2;
+		$('.cost-per').val(result);
+		updateResults();
+});
+
+// Change Power and Cost-per Value
+$('.consumption').keyup(function () {
+	var foo = parseFloat($(this).val());
+		foo = Math.round(foo / 50);
+		$('.power').val(foo);
+
+	var result = foo * 2;
+		$('.cost-per').val(result);
+		updateResults();
+});
+
+// Change Consumption and Power Value
+$('.cost-per').keyup(function () {
+	var foo = parseFloat($(this).val());
+		foo = Math.round(foo / 50);
+		$('.power').val(foo);
+
+	var foo2 = parseFloat($(this).val());
+		foo2 = Math.round(foo2 * 50);
+		$('.consumption').val(foo2);
+		updateResults();
+});
+
+	</pre>
+		<hr>
+	</div>
+	<div class="content-block">
+			<h3 id="contact-form"><strong>Contact Form</strong></h3>
+			<br>
+		<p>
+			<img src="assets/images/form.png">
+		</p>
+		<pre>
+	&lt;form class="custom-form"&gt;
+		&lt;div class="form-group"&gt;
+			&lt;label for="exampleInputEmail1"&gt;Your Name&lt;/label&gt;
+			&lt;input type="text" class="form-control" id="exampleInputEmail1"&gt;
+		&lt;/div&gt;
+		&lt;div class="form-group"&gt;
+			&lt;label for="exampleInputEmail2"&gt;Email Address&lt;/label&gt;
+			&lt;input type="text" class="form-control" id="exampleInputEmail2"&gt;
+		&lt;/div&gt;
+		&lt;div class="form-group"&gt;
+			&lt;label for="exampleInputEmail3"&gt;Phone&lt;/label&gt;
+			&lt;input type="text" class="form-control" id="exampleInputEmail3"&gt;
+		&lt;/div&gt;
+		&lt;div class="form-group"&gt;
+			&lt;label for="exampleInputEmail4"&gt;Company&lt;/label&gt;
+			&lt;input type="text" class="form-control" id="exampleInputEmail4"&gt;
+		&lt;/div&gt;
+		&lt;div class="form-group last"&gt;
+			&lt;label for="exampleInputEmail1"&gt;Massage&lt;/label&gt;
+			&lt;textarea name="massage"&gt;&lt;/textarea&gt;
+		&lt;/div&gt;
+		&lt;div class="text-right"&gt;
+			&lt;button type="submit" class="see-brd-btn"&gt;Send&lt;/button&gt;
+		&lt;/div&gt;
+	&lt;/form&gt;
+		</pre>
+	</div>
+
+
+	<div class="content-block">
+	<h3 id="sources-and-credits"><strong>Sources and Credits</strong><a class="back2top" href="#top">top</a></h3>
+		<br>
+	<ul>
+		<li>Bootstrap Framework – <a href="https://getbootstrap.com/" target="_blank">https://getbootstrap.com/</a></li>
+		<li>OwlCarousel - <a href="https://owlcarousel2.github.io/OwlCarousel2" target="_blank">https://owlcarousel2.github.io/OwlCarousel2</a></li>
+		<li>Jquery - <a href="https://jquery.com/" target="_blank">https://jquery.com/</a></li>
+		<li>Google fonts <a href="https://www.google.com/fonts" target="_blank">https://www.google.com/fonts</a></li>
+		<li>Slick <a href="http://kenwheeler.github.io/slick/" target="_blank">http://kenwheeler.github.io/slick/</a></li>
+		<li>Masonry <a href="https://github.com/desandro/masonry" target="_blank">https://github.com/desandro/masonry</a></li>
+		<li>Animation <a href="http://jackonthe.net/css3animateit/" target="_blank">http://jackonthe.net/css3animateit/</a></li>
+	</ul>
+		<hr class="space">
+	</div>
+	<div class="content-block">
+			<h3 id="contacts"><strong>Contacts</strong></h3></a>
+			<br>
+			
+			<div>
+				<p class="prepend-top">
+					<strong>
+						Created: 2018<br>
+					By: Fruitful code<br>
+					Email: <a href="mailto:mail@fruitfulcode.com">mail@fruitfulcode.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->   
+			  <div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing our theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/fruitfulcode" target="blank">here</a>. Thanks so much!</p>
+		</div>   
+		  
+		</div>
+
+	</div>
+</div><!-- end div .container -->
+</body>
+</html>
